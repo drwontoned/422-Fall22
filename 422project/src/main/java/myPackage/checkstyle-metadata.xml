@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-metadata PUBLIC
+"-//eclipse-cs//DTD Check Metadata 1.1//EN"
+"http://eclipse-cs.sourceforge.net/dtds/checkstyle-metadata_1_1.dtd">
+<checkstyle-metadata>
+    <rule-group-metadata name="My custom checks"  priority="1600">
+        <description>%MyCustomChecks.desc</description>
+        
+        <rule-metadata name="%HalsteadLength.name" internal-name="HalsteadLength" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.HalsteadLengthCheck" />
+            <description>%HalsteadLength.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%Operator.name" internal-name="Operator" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.OperatorCheck" />
+            <description>%Operator.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%Comment.name" internal-name="Comment" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.CommentCheck" />
+            <description>%Comment.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%Loop.name" internal-name="Loop" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.LoopCheck" />
+            <description>%Loop.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%Expression.name" internal-name="Expression" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.ExpressionCheck" />
+            <description>%Expression.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%Operand.name" internal-name="Operand" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.OperandCheck" />
+            <description>%Operand.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%CommentLines.name" internal-name="CommentLines" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.CommentLinesCheck" />
+            <description>%CommentLines.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%HalsteadVocabulary.name" internal-name="HalsteadVocabulary" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.HalsteadVocabularyCheck" />
+            <description>%HalsteadVocabulary.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%HalsteadVolume.name" internal-name="HalsteadVolume" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.HalsteadVolumeCheck" />
+            <description>%HalsteadVolume.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%HalsteadDifficulty.name" internal-name="HalsteadDifficulty" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.HalsteadDifficultyCheck" />
+            <description>%HalsteadDifficulty.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%HalsteadEffort.name" internal-name="HalsteadEffort" parent="TreeWalker">
+            <alternative-name internal-name="MyPackge.HalsteadEffortCheck" />
+            <description>%HalsteadEffort.desc</description>
+        </rule-metadata>
+        
+    </rule-group-metadata>
+</checkstyle-metadata>
